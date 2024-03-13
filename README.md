@@ -5,10 +5,12 @@ Data Structures in Python
 - 1. Lists
 
       Definition: Ordered, mutable collections of items enclosed within square brackets [].
-Properties:
+
+     Properties:
 Allow duplicate elements.
 Support indexing and slicing.
-Methods:
+
+     Methods:
 append(): Adds an element to the end of the list.
 extend(): Adds elements from another list to the end of the list.
 insert(): Inserts an element at a specified position.
@@ -22,7 +24,8 @@ reverse(): Reverses the order of elements in the list.
 - 2. Tuples
 
      Definition: Immutable collections of items enclosed within parentheses ().
-Properties:
+
+     Properties:
 Allow duplicate elements.
 Support indexing and slicing.
 Usage:
@@ -31,10 +34,12 @@ Often used for returning multiple values from a function.
 - 3. Dictionaries
 
      Definition: Unordered collections of key-value pairs enclosed within curly braces {}.
-Properties:
+
+     Properties:
 Keys must be unique and immutable (strings, numbers, tuples).
 Values can be of any data type and mutable.
-Methods:
+
+     Methods:
 get(): Returns the value associated with a specified key.
 keys(): Returns a view of all the keys in the dictionary.
 values(): Returns a view of all the values in the dictionary.
@@ -46,7 +51,8 @@ clear(): Removes all key-value pairs from the dictionary.
 - 4. Sets
 
      Definition: Unordered collections of unique elements enclosed within curly braces {}.
-Properties:
+
+     Properties:
 Do not allow duplicate elements.
 Support mathematical set operations like union, intersection, difference. 
 
@@ -82,7 +88,7 @@ replace(): Replaces occurrences of a specified substring with another substring.
 
      Definition: Data structures that hold values of the same data type, provided by the array module.
 
-     Properties:More memory-efficient than lists for numerical data.
+     Properties: More memory-efficient than lists for numerical data.
 Support array-specific operations like element-wise arithmetic operations.
 
 
